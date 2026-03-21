@@ -7,6 +7,4 @@ Para poder trabajar a lo largo de la cursada, se requiere el uso de las siguient
 
 *   **Editor de código:** Visual Studio Code.
 *   **Control de versiones y publicación:** GitHub.
-*   **Diseño y prototipado:** Figma.
-*   **Frameworks y librerías:** Bootstrap / Tailwind y jQuery.
 *   **Otras herramientas:** Plataformas institucionales (Microsoft Teams, Web UADE) y herramientas de Inteligencia Artificial (IA).
