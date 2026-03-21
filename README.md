@@ -2,7 +2,7 @@
 
 Este repositorio contiene los proyectos y prácticas correspondientes a la asignatura **Diseño y Desarrollo Web** de UADE, a cargo de la profesora Mg. Patricia Litovicius.
 
-## 🛠️ Requisitos y Herramientas (Software)
+## 🛠️ Requisitos y Herramientas
 Para poder trabajar a lo largo de la cursada, se requiere el uso de las siguientes plataformas y herramientas de software:
 
 *   **Editor de código:** Visual Studio Code.
