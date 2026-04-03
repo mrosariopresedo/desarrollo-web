@@ -1,0 +1,149 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Open+Sans&display=swap');
+
+/*
+    font-family: <familia-1>, <familia-2>, <familia-generica>;
+    font-size: <tamano>;
+    background-color: <color>;
+    color: <color>;
+    margin: <valor>;
+    padding: <valor>;
+*/
+body {
+    font-family: 'Open Sans', Arial, sans-serif;
+    font-size: 16px;
+    background-color: #f3f0ff;
+    color: #2e2448;
+    margin: 0;
+    padding: 0;
+}
+
+/*
+    background-color: <color>;
+    color: <color>;
+    padding: <arriba-abajo> <izquierda-derecha>;
+*/
+header {
+    background-color: #3c2a5d;
+    color: #ffffff;
+    padding: 30px 40px;
+}
+
+/*
+    font-family: <familia-1>, <familia-generica>;
+    font-size: <tamano>;
+    font-weight: <peso>;
+    margin-bottom: <valor>;
+*/
+header h1 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 22px;
+    font-weight: 700;
+    margin-bottom: 6px;
+}
+
+/*
+    font-size: <tamano>;
+    color: <color>;
+*/
+header p {
+    font-size: 15px;
+    color: #d7c8ff;
+}
+
+/*
+    background-color: <color>;
+    padding: <arriba-abajo> <izquierda-derecha>;
+*/
+nav {
+    background-color: #5a3f88;
+    padding: 10px 40px;
+}
+
+/*
+    margin: <valor>;
+    padding: <valor>;
+*/
+nav ul {
+    margin: 0;
+    padding: 0;
+}
+
+/*
+    list-style: <list-style-type> <list-style-position> <list-style-image>;
+    display: <tipo-display>;
+    margin-right: <valor>;
+*/
+nav li {
+    list-style: none;
+    display: inline;
+    margin-right: 24px;
+}
+
+/*
+    color: <color>;
+    font-family: <familia-1>, <familia-generica>;
+    font-size: <tamano>;
+*/
+nav a {
+    color: #ffffff;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 14px;
+}
+
+/*
+    padding: <valor>;
+*/
+main {
+    padding: 40px;
+}
+
+/*
+    font-family: <familia-1>, <familia-generica>;
+    font-size: <tamano>;
+    color: <color>;
+    margin-bottom: <valor>;
+*/
+main h2 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 20px;
+    color: #4a3470;
+    margin-bottom: 20px;
+}
+
+/*
+    margin-bottom: <valor>;
+*/
+main p {
+    margin-bottom: 16px;
+}
+
+/*
+    margin: <arriba-abajo> <izquierda-derecha>;
+    border: <ancho> <estilo> <color>;
+*/
+main img {
+    margin: 16px 0;
+    border: 3px ridge #8b72c7;
+}
+
+/*
+    color: <color>;
+*/
+main a {
+    color: #6c4fb0;
+}
+
+/*
+    background-color: <color>;
+    color: <color>;
+    padding: <arriba-abajo> <izquierda-derecha>;
+    text-align: <alineacion>;
+    font-size: <tamano>;
+*/
+footer {
+    background-color: #3c2a5d;
+    color: #c7b9e8;
+    padding: 20px 40px;
+    text-align: center;
+    font-size: 14px;
+}
