@@ -3,34 +3,70 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Contacto</title>
+    <title>Contacto | María del Rosario Presedo</title>
     <link rel="stylesheet" href="styles/styles.css">
 </head>
 <body>
-
-    <header>
-        <h1>María del Rosario Presedo Valenzuela</h1>
-        <p>Analista de Seguridad Informática</p>
+    <header class="site-header">
+        <nav class="site-nav">
+            <div class="container nav-inner">
+                <a class="nav-logo" href="index.html">MRPV</a>
+                <ul class="nav-links">
+                    <li><a href="index.html">Inicio</a></li>
+                    <li><a href="intereses.html">Intereses</a></li>
+                    <li><a class="activo" href="contacto.html">Contacto</a></li>
+                </ul>
+            </div>
+        </nav>
+        <section class="page-header">
+            <div class="container">
+                <h1>Contacto</h1>
+                <p>Estoy abierta a conversaciones sobre seguridad, compliance y proyectos relacionados. Respondo por correo.</p>
+            </div>
+        </section>
     </header>
 
-    <nav>
-        <ul>
-            <li><a href="index.html">Inicio</a></li>
-            <li><a href="intereses.html">Intereses</a></li>
-        </ul>
-    </nav>
-
     <main>
-        <h2>Contactame</h2>
-        <p>Si deseás comunicarte conmigo, podés enviarme un correo electrónico directamente haciendo clic en el siguiente enlace:</p>
-        <a href="mailto:mpresedo@uade.edu.ar">Enviarme un correo</a>
+        <section class="section">
+            <div class="container">
+                <div class="section-head">
+                    <h2>Escribime</h2>
+                    <p>Si deseas comunicarte conmigo, podes enviarme un correo y coordinamos una charla.</p>
+                </div>
+                <div class="contact-grid">
+                    <article class="contact-card">
+                        <h3>Correo principal</h3>
+                        <p>El canal mas directo para propuestas, consultas y networking profesional.</p>
+                        <a href="mailto:mpresedo@uade.edu.ar">Enviar correo</a>
+                    </article>
+                    <article class="contact-card">
+                        <h3>Disponibilidad</h3>
+                        <p>Horario sugerido: lunes a viernes, 9 a 18 h. Respuesta dentro de 24 a 48 h.</p>
+                        <a href="mailto:mpresedo@uade.edu.ar">Agendar contacto</a>
+                    </article>
+                </div>
+            </div>
+        </section>
+        <aside class="section">
+            <div class="container">
+                <div class="aside-card">
+                    <h4>Canal preferido</h4>
+                    <p>El correo es el medio mas directo para responder con detalle.</p>
+                    <h5>Tiempo de respuesta</h5>
+                    <p>Intento responder dentro de 24 a 48 horas habiles.</p>
+                    <h6>Nota</h6>
+                    <p>Si el asunto es urgente, indicalo en el titulo del correo.</p>
+                </div>
+            </div>
+        </aside>
     </main>
 
     <footer>
-        <p><strong>Curso:</strong> Diseño y Desarrollo Web - Clase 3</p>
-        <p><strong>Año:</strong> 2026</p>
-        <p><strong>Email:</strong> mpresedo@uade.edu.ar</p>
+        <div class="container footer-inner">
+            <p><strong>Curso:</strong> Diseño y Desarrollo Web - Clase 3</p>
+            <p><strong>Año:</strong> 2026</p>
+            <p><strong>Email:</strong> <a href="mailto:mpresedo@uade.edu.ar">mpresedo@uade.edu.ar</a></p>
+        </div>
     </footer>
-
 </body>
 </html>
